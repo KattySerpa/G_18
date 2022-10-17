@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.wrap{
+    margin: auto;
+}
+
+.cabecera{
+    position: relative;
+  
+}
+
+.cabecera h1 ,.cabecera h2{
+    position: absolute;
+    color: #fff;
+}
+
+.cabecera h1{
+    top: 10%;
+    left: 40%;
+    font-size: 3rem;
+}
+
+.cabecera h2{    
+    bottom: 30%;
+    left: 10%;
+    line-height: 2.2rem;
+    margin-bottom: 0;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7299FE80;
+
+}
+
+.cabecera figure img{
+    display: block;
+    width: 100%;
+}
+.title1{
+    width: 250px;
+}
+/* sobre.mi */
+
+.sobre-mi{
+    padding: 30px 40px 70px 40px;
+    background-color:#7299FE ;    
+}
+
+.sobre-mi h2{
+    color:#1D06A7 ;
+    text-align: center;
+    font-size: 1,5rem;
+    margin-bottom: 20px;
+}
+
+.sobre-mi p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Ver CV */
+
+.ver-cv{
+    position: absolute;
+    background: #D16FFF;
+    width: 180px;
+    height: 50px;
+    box-shadow: 5px 5px 5px rgba(104, 8, 8, 0.25);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 22px;
+    border: none;
+}
+.rectangle{
+    padding: 30px 40px 70px 40px;
+    width: 100%;
+    background: #9022FF;
+    
+}
+
+.skills{
+    display: flex;
+}
+.front1{
+    width: 50%;
+}
+.front2{
+    width: 50%;
+}
+
+.bar_exterior{
+    width: 90%;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 10px;
+}
+.bar_interior{
+    /* width: 20%; */
+    background-color: aqua;
+    border-radius: 10px;
+    height: 10px;
+}
+
+#in_html{
+    width: 50%;
+}
+#in_js{
+    width: 15%;
+}
+#in_flex{
+    width: 80%;
+}
+#in_css{
+    width: 60%;
+}
+#in_vue{
+    width: 25%;
+}
+#in_grid{
+    width: 50%;
+}
+
+.sk_text{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.skill-title{
+    text-align: center;
+    color: #26CC4B;
+}
+
+.portafolio{
+    text-align: center;
+    background: #FFD233;
+    width: 100%;
+    padding: 60px;
+}
+
+.img{
+    width: 150px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.porta1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.porta2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.porta-text{
+    font-size: 35px;
+    color: #00AD84;
+}
+
+.clien-main{
+    background-color: #3F4E62;
+}
+
+.title-cli{
+    font-size: 30px;
+    color: #ADFF28;
+    text-align: center;
+    padding: 15px;
+}
+
+.clien-fila{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 200px;
+}
+
+.form-main{
+    background-color: #1687A0;
+    
+}
+
+.form-list1{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.form-list1 input{
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.form-list2{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 20px 5px;
+}
+.form-list2 input{
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+.title-cont{
+    font-size: 30px;
+    color: #FF1B1B;
+    text-align: center;
+    padding: 15px;
+}
+
+.form-desc{
+    display: flex;
+    justify-content: center;
+}
+.form-desc input{
+    width: 610px;
+}
+
+
+
+
+
+
+
+

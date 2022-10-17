@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: blue;
+}
+.section-principal{
+    display: flex;
+}
+.section-principal div{
+    width: 200px;
+    height: 200px;
+}
+
+.box-one{
+    background-color: yellow;
+}
+
+.box-two{
+    background-color: red;
+}
+
+.box-three{
+    background-color: aqua;
+}
+@media only screen and (max-width:480px) {
+    body{
+        background-color: purple;
+    }
+    .box-three{
+        background-color: brown;
+    }
+
+    .box-one{
+        background-color: black;
+    }
+}

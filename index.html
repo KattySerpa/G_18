@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8'>
+    <link rel="stylesheet" href="./style.css">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- Primary Meta Tags -->
@@ -25,27 +26,50 @@
     <title>Document</title>        
 </head>
 <body>
-    <header>
-        <nav>
-            <span>
-                LOGO
-            </span>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="">TRABAJOS</a>
+                </li>
+                <li>
+                    <a href="">SOBRE MI</a>
+                </li>
+                <li>
+                    <a href="">CONTACTAME</a>
+                </li>
+            </ul>            
         </nav>
-        
-        <ul>
-            <li><a href="./semana2/inicio.html">INICIO</a></li>
-            <li><a href="./semana2/nosotros.html">Nosotros</a></li>
-            <li><a href="./semana2/contactanos.html">Contactanos</a></li>
-            <li><a href="./semana2/formulario.html">Formulario</a></li>
-            <li><a href="./semana2/tablas.html">tablas</a></li>
-            <li><a href="./semana2/practica/paginapersonal.html">pagina_personal</a></li>
-            <li><a href="">Mi reto</a></li>
-            <li><a href="./semana2/reto2/index.html">Reto2</a></li>
-        </ul>
     </header>
+    <section class="banner">
+        <div id="encabezado">
+            <h1 class="title">Mi nombre es Katherine Serpa</h1>
+            <h2 class="title">Desarrollador full stack</h2>
+            <p class="resume">Soy el programador de tus sueños</p>
+            <button class="btn-primary">Download Resumen</button>
+        </div>
+        <div id="imagen_foto">
+            <img class="img-profile" src="./foto.jpg" alt="">
+        </div>
+    </section>
+    <hr>
     <section>
-        <img src="./images/foto.jpg" alt="">
-    </section>    
+        <div class="section-works">
+            <h4 class="title-section">PROGRESION JOB</h4>
+            <div class="card">
+                <div>
+                    <a href="./semana2/reto2/index.html" target="_blank">
+                        <img src="./semana2/reto2/preview.png" alt="">
+                    </a>
+                </div>
+                <div class="container-detail">
+                    <h2>Reto 2 NFT-Desgin</h2>
+                    <h3>Aprendiendo HTML-CSS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 <footer>
 
