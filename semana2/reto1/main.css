@@ -1,0 +1,221 @@
+
+
+/* Estilos en header */
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.header {
+    background-color: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    right: 0;
+    top: 0;
+}
+
+
+.header ul{
+    display: flex;
+}
+
+.header li {
+    margin-left: 1em;
+    list-style: none;
+}
+
+.header nav a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.navegador_title{
+    margin-right: 20px;
+}
+/* section home */
+.home{
+    margin-top: 120px;
+}
+.home h2{
+    color: #3B06D2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.home p{
+    margin: 20px;
+}
+.home div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home div img{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.servicios h2{
+    color: #D206B2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+/* seccion servicios */
+.servicios p{
+    margin-left: 20px;
+}
+
+.servicios div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicios div img{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.lista{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.lista li{
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.serv1{
+    color: #FF0000;
+}
+
+.serv2{
+    color: #1400FF;
+}
+
+.serv3{
+    color: #D79B00;
+}
+
+.serv4{
+    color: #03B2B2;
+}
+
+/* seccion portaflio */
+
+.portafolio h2{
+    color: #AAD206;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.portafolio p{
+    margin-left: 20px;
+}
+
+.portafolio div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio div img{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.serv5{
+    color: #AE8800;
+}
+
+.serv6{
+    color: #AE280B;
+}
+
+.serv7{
+    color: #060564;
+}
+
+.serv8{
+    color: #637300;
+}
+
+.contacto h2{
+    color: #06D2C6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.contacto p{
+    margin-left: 20px;
+}
+
+.box{
+    display: block;
+}
+
+.box_100p{
+    width: 96%;
+    margin: 20px;
+    height: 50px;
+}
+
+#form_detalle{
+    height: 200px;
+}
+
+#btn_enviar{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #22A900;
+    background-color: white;
+    color: #22A900;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00AF1C;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer p{
+    color: white;
+    font-weight: bold;
+}

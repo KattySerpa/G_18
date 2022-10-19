@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     align-items: center;
@@ -23,6 +28,7 @@ body{
     gap: 1rem;
     padding: 2rem;
     border-radius: 50%;
+    width: 300px;
 }
 .header_professional-image-container{
     max-width: 250px;
@@ -59,4 +65,30 @@ header{
     width: 100%;
 }
 
+@media only screen and  (max-width: 480px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .article__title,.article__keywords,.article__presentation{
+        letter-spacing: 0.5px;
+        margin: 0;
+        font-size: 1rem;
+    }
+    .footer__link-icon-container{
+        display: flex;
+        transition: all 0.5s;
+        max-width: 1.5rem;
+    }
+    .header__professional-image{
+        width: 100%;
+    }
+
+}
+    
 

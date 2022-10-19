@@ -21,8 +21,8 @@ section{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    border: solid;
     border-radius: 8px;
+    background-color: hsl(216, 50%, 16%);
 }
 .card-foto{
     display: flex;
@@ -89,7 +89,7 @@ hasta aqui */
     margin-left: 15px;
 }
 
-.
+
 
 
 
